@@ -1,0 +1,647 @@
+/*  start page style    */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*  body style    */
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat','Raleway','Helvetica','Arial',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.15;
+    perspective: 600px;
+}
+
+
+/*start header and info contact & template list style     */
+
+header{
+   background-image: url('../images/header-background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover ;
+   padding-top: 15px;
+   height:850px ;
+   color: #ffffff;
+}
+
+
+/*  start contact info */
+header .nav{
+    height:50px ;    
+    border-bottom :2px solid ;
+    border-bottom-color: #f0f0f0;
+}
+header .nav .nav-info{
+    float: left;
+}
+.nav  #nav-icon{
+    float: right;
+}
+header .nav  #nav-icon{
+    margin-right: 30px;
+}
+header .nav  #nav-icon i{
+    margin: 10px;
+}
+header .nav  #nav-icon i:hover{
+    color: #2d1dff;
+}
+
+.nav .nav-info .nav-info-contact{
+    display: inline;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+/*  end  contact info style */
+
+
+/*  start serch input style */
+.line-serch { 
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: none;
+    display: none;
+}
+.line-serch input{
+    width: 90%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #867878;
+}
+
+.line-serch input[placeholder]{
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.line-serch button{
+    font-weight: 10px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #2d1dff;
+    float: right;
+    margin-right: 10px;
+}
+.line-serch .fas{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.line-serch .fas:hover{
+    color: #2d1dff;
+}
+/*  end  serch input style */
+
+/*   start page list style */
+header .nav-page .nav-page-logo{
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+
+}
+header .nav-page .nav-page-mnue{
+    float: right;
+    text-decoration: none;
+    
+
+}
+header .nav-page .nav-page-mnue ul li{
+    text-decoration: none;
+    display: inline;
+    margin-right: 60px;
+    
+}
+header .nav-page .nav-page-mnue ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+header .nav-page .nav-page-mnue ul li a:hover{
+    color: #0000ff;
+}
+
+header .nav-page .nav-page-mnue ul li .sub{
+    font-weight: 20px;
+    border-radius: 3px;
+    padding-left: 30px;
+    margin-top: 20px;
+    padding-right: 30px;
+    line-height: 50px;
+    color: #ffffff;
+    background-color: #2d1dff;
+
+}
+header .nav-page .nav-page-mnue ul li .sub:hover{
+    background-color: #6b76d8;
+}
+
+/*  end page list style */
+
+
+/*    start some more info style */
+header .head{
+    margin-top: 200px;
+    text-align: center;
+}
+header .head p{
+    font-size: 24px;
+    color: #d7d7d7;
+}
+header .head h1{
+    font-size: 80px;
+    color: #ffffff;
+}
+header .data {
+    padding-top: 180px;
+}
+header .data .data-icon {
+    line-height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20%;
+    padding: 1px 40px;
+    margin: 5px 20px 5px 150px;
+    text-align: left;
+    
+}
+header .data .data-icon i{
+    background-color: #fafafa00;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    border: 2px solid #6e63ff;
+
+}
+header .data .data-icon h4 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+header .data .data-icon  p{
+    font-family: "Poppins";
+    color: #7d7d7d;
+    font-size: 20px;
+    
+}
+
+/*    end some more info style */
+
+
+
+/*  end  header and info contact & template list style    */
+
+
+/*   start  abdout us section - style   */
+
+.About-us1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 300px;
+}
+
+.About-us1 .About-us1-content{
+    width: 300px;
+    padding-top: 100px;
+
+}
+
+.About-us1 .About-us1-content h2{
+    font-size: 40px  ;
+    line-height:1;
+    font-weight: 300;
+    
+
+}
+.About-us1 .About-us1-content p{
+    font-size: 20px;
+    line-height:1;
+    padding-top: 50px;
+    font-family: "Poppins";
+    color: #a88b8b;
+
+}
+.About-us1 .About-us1-content .About-us1-content-customer{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    
+}
+
+.About-us1 .About-us1-content .About-us1-content-customer div h3{
+    color: #2d1dff;
+    font-size: 50px;
+}
+
+.About-us1 .About-us1-content .About-us1-content-customer div p{
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+.About-us1 img{
+    border-radius: 5%;
+}
+
+.About-us2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 300px;
+}
+
+.About-us2 img{
+    border-radius: 5%;
+}
+
+.About-us2  .About-us2-content{
+    width: 300px;
+    padding: 100px;
+}
+
+.About-us2  .About-us2-content h2{
+    font-size: 40px  ;
+    line-height:1;
+    font-weight: 300;
+}
+
+.About-us2 .About-us2-content p{
+    font-size: 20px;
+    line-height:1;
+    padding-top: 50px;
+    font-family: "Poppins";
+    color: #a88b8b;
+
+}
+
+.About-us2 .About-us2-content button{
+    font-weight: 20px;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    color: #ffffff;
+    background-color: #2d1dff;
+    margin-top: 30px;
+
+}
+.About-us2 .About-us2-content button:hover{
+    background-color: #6b76d8;
+}
+
+/*   end  abdout us section - style   */
+
+
+/*   start Services info offers style   */
+
+.Services{
+    margin: 0px 200px 100px 200px;
+    line-height: 1;
+}
+.Services .Services-header{
+    text-align: center;
+
+}
+.Services .Services-header h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d1dff;
+    
+}
+.Services .Services-header h2{
+    font-size: 48px;
+    font-weight: 300;
+}
+.Services .Services-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 150px;
+    text-align: center; 
+    grid-column-gap: 30px;
+
+}
+.Services .Services-info .Services-info-section{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 70px;
+    border-radius: 20px;
+    border-width: 2px ;
+    border-color: #f0efff ;
+    border-style: solid ;
+    box-shadow: 5px 10px #c9b1b1;
+    transition: all 1s ease-in-out;
+    
+}
+.Services .Services-info .Services-info-section:hover{
+    transform: translate3d( 0 ,0 , 50px);
+    background-color: #d3b9b9;
+    box-shadow: 5px 10px #9e9595;
+    border:#d3bebe ;
+}
+
+.Services .Services-info .Services-info-section i{
+    color: #0000ff;
+    font-size: xx-large;
+    padding-bottom: 30px ;
+}
+.Services .Services-info .Services-info-section h3{
+    font-size: 20px;
+    line-height:1.5;
+}
+.Services .Services-info .Services-info-section p{
+    margin-top: 20px;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 30px;
+}
+/*   end Services info offers style   */
+/*  start  presentation Video  style   */
+
+.video {
+    background-image: url(http://jevelin.shufflehound.com/business/wp-content/uploads/sites/39/2019/11/Rectangle-532-copy.jpg?id=11) ;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 700px;
+    text-align: center;
+}
+
+.video h2{
+    font-family: 'Raleway',serif;
+    padding-top: 300px ;
+    font-size: 40px;
+    color: #7d7d7d;
+}
+
+.video p{
+    font-size: 20px;
+    font-family: "Poppins";
+    padding-top: 30px ;
+    color: #fffefe;
+}
+
+/*  end  presentation Video style    */
+/*  start  Pricing section  style   */
+
+.Pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    padding: 100px ;
+}
+.Pricing .Pricing-heder{
+    padding-top: 300px ;
+    width: 300px;
+    
+    
+}
+.Pricing .Pricing-heder h2{
+    font-size: 48px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.Pricing .Pricing-heder p{
+    font-size: 20px;
+    line-height:1;
+    padding-top: 50px;
+    font-family: "Poppins";
+    color: #a88b8b;
+    
+}
+
+.Pricing  #Pricing-heder1 , 
+.Pricing #Pricing-heder2{
+    padding: 50px ;
+    border-radius: 10px;
+    border-width: 2px ;
+    border-style: solid ;
+}
+.Pricing  #Pricing-heder1 {
+    background-color: #e6d7d7;    
+    border-color: #f0efff ;
+    line-height: 2;
+}
+.Pricing  #Pricing-heder2 {
+    line-height: 2;
+    border-color: #0000ff;
+}
+.Pricing  #Pricing-heder1 h2 , 
+.Pricing #Pricing-heder2 h2{
+    font-size: 30px;
+
+}
+.Pricing  #Pricing-heder1 h3 , 
+.Pricing #Pricing-heder2 h3{
+    font-size: 60px ;
+    font-weight: 200;
+    color: #2d1dff ;
+
+}
+.Pricing  #Pricing-heder1 .ic , 
+.Pricing #Pricing-heder2  .ic{
+    font-size: 24px;
+    line-height:1.5;
+    padding-top: 50px;
+    font-family: "Poppins";
+    color: #a88b8b;
+    padding-bottom: 50px;
+    border-bottom :2px solid ;
+    border-color: #cac9c9;
+
+
+}
+.Pricing  #Pricing-heder1 div , 
+.Pricing #Pricing-heder2 div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.Pricing  #Pricing-heder1 div p , 
+.Pricing #Pricing-heder2 div p{    
+    font-family: "Poppins";
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.Pricing  #Pricing-heder1 button ,
+.Pricing  #Pricing-heder2 button{
+    font-weight: 20px;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    color: #ffffff;    
+    margin-top: 30px;
+
+}
+.Pricing  #Pricing-heder1 button {
+    background-color: transparent;
+    border :2px solid ;
+    border-color: #8561c9;
+    color: #161010;
+}
+.Pricing  #Pricing-heder2 button{
+    background-color: #2d1dff;
+
+}
+
+.Pricing  #Pricing-heder1 button:hover{
+    border-color: #3a1088;
+}
+.Pricing  #Pricing-heder2 button:hover{
+    background-color: #6b76d8;
+}
+
+/*    end Pricing section  style   */
+/*  start Contact us section style    */
+.Contact-us{
+    background-image: url('http://jevelin.shufflehound.com/business/wp-content/uploads/sites/39/2019/11/Rectangle-534-copy.jpg?id=12') ;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height:500px ;
+    color: #ffffff;
+    text-align: center;
+}
+.Contact-us h6{
+    padding-top: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #b6b1ff;
+
+}
+.Contact-us h2{
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.Contact-us button{
+    font-weight: 30px;
+    border-radius: 3px;
+    border-color: #6c64e4;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 50px;
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 30px;
+    font-size: x-large;
+}
+.Contact-us button:hover{
+    border-color: #0000ff;
+}
+
+/*  end  Contact us  section style    */
+
+
+/*  end footer section style    */
+
+footer {
+    background-color: #220606;
+    color: #ffffff;
+    
+    border-width:80% ;
+}
+footer .footer-naves {
+    border-bottom :2px solid ;
+    border-bottom-color: #f0f0f0;
+    border-left-width:50% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:100px  150px;
+     
+}
+footer .footer-naves .footer-naves-fot{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px 40px;
+    text-align: left;
+    line-height: 1.5;
+}
+footer .footer-naves .footer-naves-fot p{
+    font-family: "Poppins";
+    color: #e7dbdb;
+    font-size: 15px;
+    padding-top:30px;
+    line-height: 30px;
+}
+
+footer .footer-naves .footer-naves-fot  #nav-icon i{
+    padding:10px;
+}
+footer .footer-naves .footer-naves-fot nav ul li{
+    text-decoration: none;
+    display: block ;
+    padding:10px;
+    margin-right: 60px;
+    
+}
+footer .footer-naves .footer-naves-fot nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px;
+    color: #b8a8a8;    
+}
+footer .footer-naves .footer-naves-fot nav ul li a:hover{
+    color: #0000ff;
+}
+
+footer .end {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding:50px  180px;
+}
+footer .end span{
+    font-size: 12px;
+    color: #898989;
+    margin: 0px 0px 15px 0px;
+}
+
+footer .end nav li{
+    text-decoration: none;
+    display: inline ;
+    padding:10px;
+}
+footer .end nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px;
+    color: #fffefe;  
+}
+footer .end nav ul li a:hover{
+    color: #0000ff;
+}
+/*  end footer section style    */
+
+
+/*  back to top button    */
+
+#back-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #c27c7c;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #ff0000;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: bakground-color,color;
+}
+#back-to-top:hover ,#back-to-top:focus{
+    background-color: #ff0000;
+    color: #ffffff;
+}
